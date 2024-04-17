@@ -93,7 +93,7 @@ git clone https://github.com/userjack6880/Open-Report-Parser.git
 
 Optionally, a [zip file of the latest release](https://github.com/userjack6880/Open-Report-Parser/releases) can be downloaded.
 
-Rename `repoart-parser.conf.pub` to `report-parser.conf` and edit the configuration for your environment (see the next section on **Configuration Options** for details). Finally, some condierations need to be taken in account due to limitations in stock configurations of MySQL/MariaSQL on some distros, it may be necessary to add the following to your configuration (i.e. in /etc/mysql/mariadb.conf.d/50-server.cnf):
+Rename `report-parser.conf.pub` to `report-parser.conf` and edit the configuration for your environment (see the next section on **Configuration Options** for details). Finally, some condierations need to be taken in account due to limitations in stock configurations of MySQL/MariaSQL on some distros, it may be necessary to add the following to your configuration (i.e. in /etc/mysql/mariadb.conf.d/50-server.cnf):
 
 ```
 innodb_large_prefix	= on
